@@ -7,7 +7,7 @@ import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
-import java.time.Instant
+import org.threeten.bp.Instant
 
 class DavCalendarTest {
 

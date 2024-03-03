@@ -10,7 +10,7 @@ import at.bitfire.dav4jvm.Dav4jvm
 import at.bitfire.dav4jvm.HttpUtils
 import okhttp3.Response
 import java.net.HttpURLConnection
-import java.time.Instant
+import org.threeten.bp.Instant
 import java.util.logging.Level
 
 class ServiceUnavailableException: HttpException {

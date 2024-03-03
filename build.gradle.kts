@@ -46,6 +46,7 @@ tasks.withType<DokkaTask>().configureEach {
 dependencies {
     api(libs.okhttp)
     implementation(libs.commons.lang3)
+    api(libs.threetenabp)
     api(libs.xpp3)
 
     testImplementation(libs.junit4)

@@ -12,7 +12,7 @@ import at.bitfire.dav4jvm.Property
 import at.bitfire.dav4jvm.PropertyFactory
 import at.bitfire.dav4jvm.XmlUtils
 import org.xmlpull.v1.XmlPullParser
-import java.time.ZonedDateTime
+import org.threeten.bp.ZonedDateTime
 
 data class GetLastModified(
     var lastModified: ZonedDateTime
